@@ -1,0 +1,72 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
+
+.title {
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+  margin-top: -0.1rem;
+  color: #fff;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #ee6d22;
+  border-color: #ee6d22;
+}
+
+.button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #fff;
+  background: linear-gradient(to right, #ed942f, #ee6d22, #f34900);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(to right, #d0832a, #c0591d, #ca3e02);
+}
+
+.gif {
+  width: 75px;
+  height: auto;
+  margin-bottom: 20px;
+}
